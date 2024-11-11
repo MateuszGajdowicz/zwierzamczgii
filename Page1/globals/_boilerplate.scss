@@ -1,0 +1,55 @@
+body{
+    background-color: var(--background-color1);
+    position: relative;
+    margin:0;
+    overflow: hidden;
+
+
+}
+#title{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color2);
+
+}
+.buttons{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border: 5px solid var(--background-color2);
+    border-radius: 20px;
+}
+#kimdgibutton{
+    left: 300px;
+    top: 600px;
+}
+#pjemzgibutton{
+    top:600px;
+    right:300px;
+}
+#pjemzgidiv, #kimdgidiv{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: var(--background-color2);
+    border-radius: 20px;
+    
+}
+#kimdgidiv{
+    right: 200px;
+    top:150px;
+}
+#pjemzgidiv{
+    top:150px;
+    left:200px;
+}
+#pjemzgidiv:hover, #kimdgidiv:hover{
+    filter:brightness(1.2);
+
+}
+
+.buttons:hover{
+    background-color: var(--background-color2);
+    transition: 0.3s;
+
+}
